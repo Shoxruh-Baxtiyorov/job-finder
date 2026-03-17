@@ -41,7 +41,8 @@ AI-powered system for matching resumes with job listings using NLP and machine l
 git clone https://github.com/yourusername/ai-job-matcher.git
 cd ai-job-matcher
 
-python -m venv venv
-source venv/bin/activate
+uv venv 
+source .venv/bin/activate
 
-pip install -r requirements.txt
+uv init
+uv sync
